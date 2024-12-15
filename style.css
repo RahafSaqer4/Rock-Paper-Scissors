@@ -62,7 +62,7 @@ button, img{
     font-size: large;
     width: 133px;
     height: 133px;
-    border: white 2px solidgit;
+    border: white 2px solid;
 }
 .yourChoice, .computerChoice{
     justify-content: center;
