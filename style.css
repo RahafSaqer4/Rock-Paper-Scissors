@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    border-radius: 50%;
+    width: 900px;
+    height: 900px;
+    background-image: url(../../Downloads/11.jpg);
+    background-size: 100% 100%;
+}
+
+#up{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 320px;
+    height: 85px;
+    background:none;
+    border-radius: 20px;
+}
+
+.score{
+
+    border-radius: 10px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    font-size:xx-large ;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+}
+
+#down{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 500px;
+}
+
+button, img{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    justify-self: center;
+}
+
+.onPlay img{
+    width: 150px;
+    height: 150px;
+}
+#button{
+    background: none;
+    color: white;
+    font-size: large;
+    width: 200px;
+    height: 200px;
+}
+.yourChoice, .computerChoice{
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #EDF1D6;
+    width: 150px;
+    height: 150px;
+    background: none;
+}
+
+p{
+    color: white;
+}
+.on{
+    display: none;
+    background: none;
+    color: white;
+}
+#playAgain{
+    width: 150px;
+    height: 150px;
+    font-size: large;
+    border: white 2px solid;
+}
