@@ -7,8 +7,8 @@
     flex-wrap: wrap;
     margin: 20px;
     border-radius: 50%;
-    width: 900px;
-    height: 900px;
+    width: 600px;
+    height: 600px;
     background-image: url(./images/background.jpg);
     background-size: 100% 100%;
 }
@@ -17,25 +17,24 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 320px;
-    height: 85px;
+    width: 213px;
+    height: 56px;
     background:none;
     border-radius: 20px;
 }
 
 .score{
-
     border-radius: 10px;
 }
 
 .middle{
     display: flex;
     flex-direction: column;
-    font-size:xx-large ;
+    font-size:large ;
     align-items: center;
     justify-content: space-evenly;
-    width: 550px;
-    height: 550px;
+    width: 366px;
+    height: 366px;
     border-radius: 50%;
 }
 
@@ -44,33 +43,33 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    width: 500px;
+    width: 333px;
 }
 
 button, img{
     border-radius: 50%;
-    width: 125px;
-    height: 125px;
+    width: 83px;
+    height: 83px;
 }
 
 .onPlay img{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 #button{
     background: none;
     color: white;
     font-size: large;
-    width: 200px;
-    height: 200px;
+    width: 133px;
+    height: 133px;
     border: white 2px solidgit;
 }
 .yourChoice, .computerChoice{
     justify-content: center;
     border-radius: 50%;
     background-color: #EDF1D6;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background: none;
 }
 
@@ -83,8 +82,8 @@ p{
     color: white;
 }
 #playAgain{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     font-size: large;
     border: white 2px solid;
 }
