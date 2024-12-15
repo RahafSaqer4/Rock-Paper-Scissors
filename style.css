@@ -1,5 +1,6 @@
 .container{
     display: flex;
+    justify-self: center;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -8,7 +9,7 @@
     border-radius: 50%;
     width: 900px;
     height: 900px;
-    background-image: url(../../Downloads/11.jpg);
+    background-image: url(./images/background.jpg);
     background-size: 100% 100%;
 }
 
